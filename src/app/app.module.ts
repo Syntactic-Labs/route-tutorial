@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './userapps/home/home.component';
-import { AboutComponent } from './userapps/about/about.component';
-import { HelpComponent } from './userapps/help/help.component';
-import { E404Component } from './userapps/e404/e404.component';
+import { HomeComponent } from '@home/home.component';
+import { AboutComponent } from '@uapps/about/about.component';
+import { HelpComponent } from '@uapps/help/help.component';
+import { E404Component } from '@uapps/e404/e404.component';
 import { DisplayBooleanPipe } from './display-boolean.pipe';
 import { SortPipe } from './sort.pipe';
 import { SearchPipe } from './search.pipe';
